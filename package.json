@@ -1,0 +1,22 @@
+{
+  "name": "griot-theatre-company-featured-shows-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caylabradleydev/griot-theatre-company-featured-shows-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caylabradleydev/griot-theatre-company-featured-shows-page/issues"
+  },
+  "homepage": "https://github.com/caylabradleydev/griot-theatre-company-featured-shows-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

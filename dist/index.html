@@ -8,17 +8,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,900&family=Roboto:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
 
     <!--TAILWIND CSS -->
     <link rel="stylesheet" href="./output.css" />
-    <!-- Scripts -->
+
+    <!-- FONT AWESOME CDN-->
+    <script
+      src="https://kit.fontawesome.com/11b60066da.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SCRIPTS -->
+    <script src="./../static/js/main.js" defer></script>
 
     <title>Griot | Featured Shows</title>
   </head>
-  <body>
-    <h1 class="bg-red-500">Hello Tailwind</h1>
+  <body class="font-sans">
+    <!-- NAVBAR -->
+    <nav
+      class="w-screen bg-bg text-white md:flex md:justify-between py-6"
+      id="nav"
+    >
+      <div class="flex items-center justify-between px-4">
+        <!-- LOGO -->
+        <div class="container nav__container">
+          <a href="#">
+            <h1 class="uppercase">Griot Theatre Company</h1>
+          </a>
+        </div>
+
+        <!-- HAMBURGER BUTTONS -->
+        <div>
+          <button
+            class="h-6 w-6 hover:text-lightBlue focus:text-lightBlue focus:outline-none block md:hidden"
+            id="openMenuBtn"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <button
+            class="h-6 w-6 hover:text-lightBlue focus:text-lightBlue focus:outline-none hidden md:hidden"
+            id="closeMenuBtn"
+          >
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- NAVIGATION BUTTONS -->
+      <div>
+        <ul
+          class="nav__links hidden text-center uppercase text-bg bg-lightBlue md:bg-bg md:text-white md:flex md:flex-row md:justify-between"
+          id="navMenu"
+        >
+          <li class="nav__item">
+            <a class="nav__link" href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contact</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Donate</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ==============HEADER============== -->
+    <header class="header">
+      <div class="header__title">
+        <h2>Header</h2>
+      </div>
+    </header>
+    <!-- ==============END OF HEADER============== -->
   </body>
 </html>
